@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61DE2042071F7AF00043D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DE2032071F7AF00043D68 /* AppDelegate.swift */; };
+		C61DE2062071F7AF00043D68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DE2052071F7AF00043D68 /* ViewController.swift */; };
+		C61DE2082071F7AF00043D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61DE2072071F7AF00043D68 /* Assets.xcassets */; };
+		C61DE20B2071F7AF00043D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61DE2092071F7AF00043D68 /* Main.storyboard */; };
+		C61DE2172071F7AF00043D68 /* SecurityNetWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DE2162071F7AF00043D68 /* SecurityNetWorkTests.swift */; };
+		C61DE2222071F7AF00043D68 /* SecurityNetWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DE2212071F7AF00043D68 /* SecurityNetWorkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C61DE2132071F7AF00043D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61DE1F82071F7AF00043D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61DE1FF2071F7AF00043D68;
+			remoteInfo = SecurityNetWork;
+		};
+		C61DE21E2071F7AF00043D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61DE1F82071F7AF00043D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61DE1FF2071F7AF00043D68;
+			remoteInfo = SecurityNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C61DE2002071F7AF00043D68 /* SecurityNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecurityNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61DE2032071F7AF00043D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C61DE2052071F7AF00043D68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C61DE2072071F7AF00043D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61DE20A2071F7AF00043D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C61DE20C2071F7AF00043D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61DE20D2071F7AF00043D68 /* SecurityNetWork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SecurityNetWork.entitlements; sourceTree = "<group>"; };
+		C61DE2122071F7AF00043D68 /* SecurityNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecurityNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61DE2162071F7AF00043D68 /* SecurityNetWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityNetWorkTests.swift; sourceTree = "<group>"; };
+		C61DE2182071F7AF00043D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61DE21D2071F7AF00043D68 /* SecurityNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecurityNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61DE2212071F7AF00043D68 /* SecurityNetWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityNetWorkUITests.swift; sourceTree = "<group>"; };
+		C61DE2232071F7AF00043D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C61DE1FD2071F7AF00043D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DE20F2071F7AF00043D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DE21A2071F7AF00043D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61DE1F72071F7AF00043D68 = {
+			isa = PBXGroup;
+			children = (
+				C61DE2022071F7AF00043D68 /* SecurityNetWork */,
+				C61DE2152071F7AF00043D68 /* SecurityNetWorkTests */,
+				C61DE2202071F7AF00043D68 /* SecurityNetWorkUITests */,
+				C61DE2012071F7AF00043D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C61DE2012071F7AF00043D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61DE2002071F7AF00043D68 /* SecurityNetWork.app */,
+				C61DE2122071F7AF00043D68 /* SecurityNetWorkTests.xctest */,
+				C61DE21D2071F7AF00043D68 /* SecurityNetWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61DE2022071F7AF00043D68 /* SecurityNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				C61DE2032071F7AF00043D68 /* AppDelegate.swift */,
+				C61DE2052071F7AF00043D68 /* ViewController.swift */,
+				C61DE2072071F7AF00043D68 /* Assets.xcassets */,
+				C61DE2092071F7AF00043D68 /* Main.storyboard */,
+				C61DE20C2071F7AF00043D68 /* Info.plist */,
+				C61DE20D2071F7AF00043D68 /* SecurityNetWork.entitlements */,
+			);
+			path = SecurityNetWork;
+			sourceTree = "<group>";
+		};
+		C61DE2152071F7AF00043D68 /* SecurityNetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C61DE2162071F7AF00043D68 /* SecurityNetWorkTests.swift */,
+				C61DE2182071F7AF00043D68 /* Info.plist */,
+			);
+			path = SecurityNetWorkTests;
+			sourceTree = "<group>";
+		};
+		C61DE2202071F7AF00043D68 /* SecurityNetWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C61DE2212071F7AF00043D68 /* SecurityNetWorkUITests.swift */,
+				C61DE2232071F7AF00043D68 /* Info.plist */,
+			);
+			path = SecurityNetWorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C61DE1FF2071F7AF00043D68 /* SecurityNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61DE2262071F7AF00043D68 /* Build configuration list for PBXNativeTarget "SecurityNetWork" */;
+			buildPhases = (
+				C61DE1FC2071F7AF00043D68 /* Sources */,
+				C61DE1FD2071F7AF00043D68 /* Frameworks */,
+				C61DE1FE2071F7AF00043D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecurityNetWork;
+			productName = SecurityNetWork;
+			productReference = C61DE2002071F7AF00043D68 /* SecurityNetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61DE2112071F7AF00043D68 /* SecurityNetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61DE2292071F7AF00043D68 /* Build configuration list for PBXNativeTarget "SecurityNetWorkTests" */;
+			buildPhases = (
+				C61DE20E2071F7AF00043D68 /* Sources */,
+				C61DE20F2071F7AF00043D68 /* Frameworks */,
+				C61DE2102071F7AF00043D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61DE2142071F7AF00043D68 /* PBXTargetDependency */,
+			);
+			name = SecurityNetWorkTests;
+			productName = SecurityNetWorkTests;
+			productReference = C61DE2122071F7AF00043D68 /* SecurityNetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C61DE21C2071F7AF00043D68 /* SecurityNetWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61DE22C2071F7AF00043D68 /* Build configuration list for PBXNativeTarget "SecurityNetWorkUITests" */;
+			buildPhases = (
+				C61DE2192071F7AF00043D68 /* Sources */,
+				C61DE21A2071F7AF00043D68 /* Frameworks */,
+				C61DE21B2071F7AF00043D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61DE21F2071F7AF00043D68 /* PBXTargetDependency */,
+			);
+			name = SecurityNetWorkUITests;
+			productName = SecurityNetWorkUITests;
+			productReference = C61DE21D2071F7AF00043D68 /* SecurityNetWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C61DE1F82071F7AF00043D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "dai nguyen";
+				TargetAttributes = {
+					C61DE1FF2071F7AF00043D68 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C61DE2112071F7AF00043D68 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C61DE1FF2071F7AF00043D68;
+					};
+					C61DE21C2071F7AF00043D68 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C61DE1FF2071F7AF00043D68;
+					};
+				};
+			};
+			buildConfigurationList = C61DE1FB2071F7AF00043D68 /* Build configuration list for PBXProject "SecurityNetWork" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C61DE1F72071F7AF00043D68;
+			productRefGroup = C61DE2012071F7AF00043D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C61DE1FF2071F7AF00043D68 /* SecurityNetWork */,
+				C61DE2112071F7AF00043D68 /* SecurityNetWorkTests */,
+				C61DE21C2071F7AF00043D68 /* SecurityNetWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61DE1FE2071F7AF00043D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61DE2082071F7AF00043D68 /* Assets.xcassets in Resources */,
+				C61DE20B2071F7AF00043D68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DE2102071F7AF00043D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DE21B2071F7AF00043D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C61DE1FC2071F7AF00043D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61DE2062071F7AF00043D68 /* ViewController.swift in Sources */,
+				C61DE2042071F7AF00043D68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DE20E2071F7AF00043D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61DE2172071F7AF00043D68 /* SecurityNetWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DE2192071F7AF00043D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61DE2222071F7AF00043D68 /* SecurityNetWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61DE2142071F7AF00043D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61DE1FF2071F7AF00043D68 /* SecurityNetWork */;
+			targetProxy = C61DE2132071F7AF00043D68 /* PBXContainerItemProxy */;
+		};
+		C61DE21F2071F7AF00043D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61DE1FF2071F7AF00043D68 /* SecurityNetWork */;
+			targetProxy = C61DE21E2071F7AF00043D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C61DE2092071F7AF00043D68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61DE20A2071F7AF00043D68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C61DE2242071F7AF00043D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C61DE2252071F7AF00043D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C61DE2272071F7AF00043D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SecurityNetWork/SecurityNetWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SecurityNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BachKhoa.SecurityNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C61DE2282071F7AF00043D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SecurityNetWork/SecurityNetWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SecurityNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BachKhoa.SecurityNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C61DE22A2071F7AF00043D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SecurityNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BachKhoa.SecurityNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecurityNetWork.app/Contents/MacOS/SecurityNetWork";
+			};
+			name = Debug;
+		};
+		C61DE22B2071F7AF00043D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SecurityNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BachKhoa.SecurityNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecurityNetWork.app/Contents/MacOS/SecurityNetWork";
+			};
+			name = Release;
+		};
+		C61DE22D2071F7AF00043D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SecurityNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BachKhoa.SecurityNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SecurityNetWork;
+			};
+			name = Debug;
+		};
+		C61DE22E2071F7AF00043D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SecurityNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BachKhoa.SecurityNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SecurityNetWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61DE1FB2071F7AF00043D68 /* Build configuration list for PBXProject "SecurityNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61DE2242071F7AF00043D68 /* Debug */,
+				C61DE2252071F7AF00043D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61DE2262071F7AF00043D68 /* Build configuration list for PBXNativeTarget "SecurityNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61DE2272071F7AF00043D68 /* Debug */,
+				C61DE2282071F7AF00043D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61DE2292071F7AF00043D68 /* Build configuration list for PBXNativeTarget "SecurityNetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61DE22A2071F7AF00043D68 /* Debug */,
+				C61DE22B2071F7AF00043D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61DE22C2071F7AF00043D68 /* Build configuration list for PBXNativeTarget "SecurityNetWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61DE22D2071F7AF00043D68 /* Debug */,
+				C61DE22E2071F7AF00043D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C61DE1F82071F7AF00043D68 /* Project object */;
+}
