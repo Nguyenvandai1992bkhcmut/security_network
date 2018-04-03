@@ -62,7 +62,6 @@
 		B856B5034004C190E8B2B8A2F038527D /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBFAE3C75105602890BD9A047D689EC /* UInt32+Extension.swift */; };
 		B90AA1D193D9DA983C60B24EB3B5A189 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF814346C0E5BFDE8D4559FE6294F6 /* Updatable.swift */; };
 		BD7F3C923AC47D15F51AD07D359BBDA4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206294523958ED48244DEB8DCB4CF023 /* Array+Extension.swift */; };
-		C6D823D5207248B3005DD9BD /* CryptorRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D823D2207248A4005DD9BD /* CryptorRSA.framework */; };
 		C745A2AA05FA14326388532157D59FD2 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C9968D4F76B3C922BCB6AD6BBCE4B /* Rabbit.swift */; };
 		C953641D50BEADDEC1E341FE87247AF8 /* HMAC+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06127188259CDD74B9E186703788F84 /* HMAC+Foundation.swift */; };
 		CA44F79721F689C434DEFA89D31ECD53 /* Blowfish+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81032203334F0F82DE8BAD6CDBDA0E5 /* Blowfish+Foundation.swift */; };
@@ -233,7 +232,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6D823D5207248B3005DD9BD /* CryptorRSA.framework in Frameworks */,
 				E31FD24D69DAB2334674E0D177103141 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

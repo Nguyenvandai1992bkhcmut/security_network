@@ -8,7 +8,7 @@
 
 import Cocoa
 import CryptoSwift
-import CryptorRSA
+//import CryptorRSA
 
 class ViewController: NSViewController {
     enum Alogrithm {
@@ -151,15 +151,15 @@ class ViewController: NSViewController {
         }
     }
     func encryptRSA() -> String {
-        let datakey = "daideptraibest".data(using: .utf8)
-        do{
-            let publicKey = try CryptorRSA.createPublicKey(with: datakey!)
-            let privateKey = try CryptorRSA.createPrivateKey(with: datakey!)
-            print(publicKey.type.hashValue)
-            print(privateKey.type.hashValue)
-        }catch{
-    
-        }
+//        let datakey = "daideptraibest".data(using: .utf8)
+//        do{
+//            let publicKey = try CryptorRSA.createPublicKey(with: datakey!)
+//            let privateKey = try CryptorRSA.createPrivateKey(with: datakey!)
+//            print(publicKey.type.hashValue)
+//            print(privateKey.type.hashValue)
+//        }catch{
+//    
+//        }
         
         return "aaa"
     }

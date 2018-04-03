@@ -7,7 +7,7 @@ target 'SecurityNetWork' do
 
   # Pods for SecurityNetWork
   pod 'CryptoSwift'
-  pod 'SwiftyRSA'
+#  pod 'SwiftyRSA'
 
   target 'SecurityNetWorkTests' do
     inherit! :search_paths
