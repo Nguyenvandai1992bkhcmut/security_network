@@ -143,9 +143,11 @@ class ViewController: NSViewController {
         }
         do {
             let cipler = try AES(key: bytes, blockMode: .ECB)
-            let str = String.init(data: data, encoding: .utf8)
-            let result = try str!.encryptToBase64(cipher: cipler)
-            saveFile(result: result!)           
+//            let str = String.init(data: data, encoding: .utf8)
+            let res = try data.encrypt(cipher: cipler)
+    
+            //let result = try str!.encryptToBase64(cipher: cipler)
+            saveFile(result: res)
         } catch  {
             print("error")
         }
@@ -176,9 +178,8 @@ class ViewController: NSViewController {
         }
         do {
             let cipler = try AES(key: bytes, blockMode: .ECB)
-            let str = String.init(data: data, encoding: .utf8)
-            let result = try str!.decryptBase64ToString(cipher: cipler)
-            saveFile(result: result)
+            let str = try data.decrypt(cipher: cipler)
+            saveFile(result: str)
         } catch  {
             print("error")
         }
@@ -221,15 +222,15 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var textFieldNameFile: NSTextField!
     
-    func saveFile(result : String){
+    func saveFile(result : Data){
         // 1
         let path = (self.textFileOutput.stringValue as NSString).appending("/").appending(textFieldNameFile.stringValue).appending(".").appending(stringExtension)
         let file: FileHandle? = FileHandle(forWritingAtPath: path)
         if file == nil {
             let filemgr = FileManager.default
             do {
-                let data = result.data(using: .utf8)
-                try filemgr.createFile(atPath: path, contents: data, attributes: nil)
+//                let data = result.data(using: .utf8)
+                try filemgr.createFile(atPath: path, contents: result, attributes: nil)
             } catch let error {
                 print("Error: \(error.localizedDescription)")
             }
